@@ -1,0 +1,28 @@
+resq header, 
+
+either redirect or different jsp, while from mobile device based on useragent in requestheader, 
+
+synchronous call... while call a class  B from class A, where classs B executes a loop.. until loop ends class A is in blocking state i.e blocking stare
+
+Asynchoronous..  doestnt block.. which simply assign task and return back.. introduce callback mechanism..
+
+http is statelessprotocol..
+
+statefull potocol... callie always have the context, that is he knows how many times he is calling by caller
+
+stateless will not track client infrmyn... server ll not not keep the port open...
+
+then how system maintain the sme user in facebook..
+ once userlogin, server creates one id for that  user and send via response to user browser,, 
+then browser saves that id in its own.. then for each click it adds the same id in its further request to setrver
+thats y server knows that response comes from same user..
+
+
+sometimes server send some extra(content type) infom to broeser via response header..
+ thats y system popups for saving pdf..
+
+sometimes browser redirect the url what user typed.. i.e broser opens the another site instead of what
+user originally typed..which is based on id in broeser
+
+
+ 
